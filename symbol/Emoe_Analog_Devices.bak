@@ -887,22 +887,22 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 8.636 0)
+			(at 0 15.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RES11A40"
-			(at 0 6.35 0)
+		(property "Value" ""
+			(at -3.81 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
+		(property "Footprint" ""
 			(at -3.81 -1.27 0)
 			(effects
 				(font
@@ -911,7 +911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com.cn/cn/lit/ds/symlink/res11a.pdf?ts=1710991180379&ref_url=https%253A%252F%252Fwww.ti.com.cn%252Fproduct%252Fzh-cn%252FRES11A%253FkeyMatch%253D%2526tisearch%253Dsearch-everything%2526usecase%253Dpartmatches"
+		(property "Datasheet" ""
 			(at -3.81 -1.27 0)
 			(effects
 				(font
@@ -920,17 +920,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES11A 1kΩ 输入匹配薄膜电阻分压器 "
+		(property "Description" ""
 			(at -3.81 -1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "输入匹配薄膜电阻分压器"
-			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
