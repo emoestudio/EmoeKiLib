@@ -1,0 +1,134 @@
+(footprint "ICSRC52128SFR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "db24cca8-a094-4d67-827a-d6dddcf87934")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ICSRC52128SFR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6bf4612f-1444-4ee7-9269-ccfddd1e7372")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "ICSRC52128SFR"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67052dc0-3876-4b02-8b29-5f0b37f83c20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11264532-dc37-4452-b1eb-0a1c11eabad1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ec9cee0-aa86-4f32-9c41-24b698149064")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1 -0.45)
+		(end -2.5 0.45)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "5a8b31e4-3a72-4855-8e2d-cdf10b74c086")
+	)
+	(fp_rect
+		(start -0.4 -0.45)
+		(end 0.4 0.45)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "11dc585a-551d-45fa-adc3-f683a191ecb1")
+	)
+	(fp_rect
+		(start 1 -0.45)
+		(end 2.5 0.45)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "f95a412e-f65f-46b0-a1ba-42a6c18fc95b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9d9e563d-c96f-4f7e-9c19-0d1a010b2bfc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 0 0)
+		(size 5.4 1.1)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_rect
+				(start -0.71 -0.65)
+				(end 0.71 0.65)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "c4169ff8-0e2d-4af7-b4d7-52252118c2aa")
+	)
+)

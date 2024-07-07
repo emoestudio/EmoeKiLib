@@ -2996,7 +2996,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 26.416 0)
+			(at 0 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3004,7 +3004,7 @@
 			)
 		)
 		(property "Value" "TCA9539"
-			(at 0 24.13 0)
+			(at -0.508 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3012,7 +3012,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-24_6.1x7.8mm_P0.65mm"
-			(at 0 -29.972 0)
+			(at -0.508 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3021,7 +3021,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tca9539-q1.pdf"
-			(at 0.508 -27.432 0)
+			(at -0.508 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3030,7 +3030,7 @@
 			)
 		)
 		(property "Description" "Automotive Low Voltage 16-Bit I2C and SMBus Low-Power I/O Expander with Interrupt Output, Reset Pin, and Configuration Registers"
-			(at 0.254 -24.892 0)
+			(at -0.508 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
