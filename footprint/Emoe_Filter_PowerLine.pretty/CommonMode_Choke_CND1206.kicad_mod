@@ -1,0 +1,225 @@
+(footprint "CommonMode_Choke_CND1206"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9fa76697-78c2-463b-b342-eb4dd8e4029a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CommonMode_Choke_CND1206"
+		(at 0 3.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "20f05618-700b-4f84-832f-d9eb8dcbf022")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "CommonMode_Choke_CND1206"
+		(at 0 5.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fe149eb-da11-4c4a-b46f-ecc37250ce8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -13.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a190e591-e37f-4f5c-ac54-8ea79578bc4d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -13.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e248011-558e-40f9-aa25-b9a4af0bc703")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 -1)
+		(end -2 -0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d5686336-4d62-4491-abf2-5dbd3d643607")
+	)
+	(fp_line
+		(start -2 1)
+		(end 2 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "21c26b81-1d1f-44c6-9c6a-c0c9ec2f2522")
+	)
+	(fp_line
+		(start -1.6 -1)
+		(end -2 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9b9168cb-5e9b-47c0-a46f-41685999c8fb")
+	)
+	(fp_line
+		(start -1 -1)
+		(end 2 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2fe9c9bd-bf0c-40df-9ad8-324279933c60")
+	)
+	(fp_line
+		(start 2 -1)
+		(end 2 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1c9bdf48-4743-45ea-967b-360840366664")
+	)
+	(fp_rect
+		(start -2.1 -1.1)
+		(end 2.1 1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "2939bf8b-7e57-4c22-95e1-8a3eac6a64c0")
+	)
+	(fp_line
+		(start -2 -1)
+		(end -1.9 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "38bbe066-12dc-4c32-9d75-b6c8b7d11657")
+	)
+	(fp_line
+		(start -2 1)
+		(end -2 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "78d216ff-5749-4e2d-afc2-6c77b182bf00")
+	)
+	(fp_line
+		(start -1.9 -1)
+		(end 2 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1ce3f422-ee26-4b2a-b28d-122b2f1f23ae")
+	)
+	(fp_line
+		(start 2 -1)
+		(end 2 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "779144d5-133f-4a64-84af-335135e28a4d")
+	)
+	(fp_line
+		(start 2 1)
+		(end -2 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "820abc73-628b-4a99-9d23-b9f2b48e6300")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4fc4e3ab-c294-4b70-8f85-a4d0224f27ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.5 -0.6)
+		(size 0.7 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(thermal_bridge_angle 45)
+		(uuid "b6b865ad-39a4-4371-9069-e9d3838a3e8f")
+	)
+	(pad "2" smd roundrect
+		(at 1.5 -0.6)
+		(size 0.7 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(thermal_bridge_angle 45)
+		(uuid "c727b71e-dce3-4451-b0e1-2dc07a20af2b")
+	)
+	(pad "3" smd roundrect
+		(at -1.5 0.6)
+		(size 0.7 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(thermal_bridge_angle 45)
+		(uuid "fa3b3a46-eb3b-47cc-8128-46a0038e2430")
+	)
+	(pad "4" smd roundrect
+		(at 1.5 0.6)
+		(size 0.7 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(thermal_bridge_angle 45)
+		(uuid "edbfc3b5-1aa8-43f5-9b6d-b3be2510521c")
+	)
+)

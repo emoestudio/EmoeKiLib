@@ -27,8 +27,8 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 5 0 0)
+	(property "Footprint" "KF2EDGR-2.5-4P"
+		(at 0 3.9 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -127,6 +127,17 @@
 		(layer "F.SilkS")
 		(uuid "6d8c1bfe-f0e2-4075-9714-3957c85fc799")
 	)
+	(fp_rect
+		(start -6 -4)
+		(end 6 6.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "b24a2048-7e0c-48b2-9f37-3411514a5e39")
+	)
 	(fp_line
 		(start -5.95 -4)
 		(end -5.95 6.1)
@@ -210,5 +221,16 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "e7df9317-74df-4a0d-96e8-8ec998aa7e68")
+	)
+	(model "${EMOE_3DMODEL_DIR}/Connectors/KF2EDGR-2.54-04P.STEP"
+		(offset
+			(xyz 0 2.7 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -180)
+		)
 	)
 )
