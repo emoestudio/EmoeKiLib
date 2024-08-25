@@ -566,7 +566,7 @@
 			)
 		)
 		(property "Description" "0 Ultra-Low Noise, Matched, Dual, Low-Gate Current, Discrete, Audiom N-Channel JFET"
-			(at 0 0 0)
+			(at 0 -9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
