@@ -566,7 +566,7 @@
 			)
 		)
 		(property "Description" "0 Ultra-Low Noise, Matched, Dual, Low-Gate Current, Discrete, Audiom N-Channel JFET"
-			(at 0 0 0)
+			(at 0 -9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1223,6 +1223,54 @@
 						)
 					)
 				)
+			)
+		)
+	)
+	(symbol "PFC-UD1206"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 	)

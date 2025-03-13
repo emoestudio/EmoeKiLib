@@ -1285,15 +1285,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 2.032 5.334 0)
+			(at 2.54 5.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "OPA171"
-			(at 5.08 3.302 0)
+		(property "Value" "OPA171DBV"
+			(at 7.366 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1357,10 +1357,10 @@
 					(type background)
 				)
 			)
-			(pin input line
-				(at -6.35 2.54 0)
+			(pin output line
+				(at 8.89 0 180)
 				(length 2.54)
-				(name "+"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1376,9 +1376,9 @@
 				)
 			)
 			(pin input line
-				(at -6.35 -2.54 0)
+				(at -6.35 2.54 0)
 				(length 2.54)
-				(name "-"
+				(name "+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1393,10 +1393,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 8.89 0 180)
+			(pin input line
+				(at -6.35 -2.54 0)
 				(length 2.54)
-				(name ""
+				(name "-"
 					(effects
 						(font
 							(size 1.27 1.27)
