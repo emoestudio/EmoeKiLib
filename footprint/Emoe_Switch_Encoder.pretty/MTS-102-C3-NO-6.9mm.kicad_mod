@@ -1,7 +1,7 @@
 (footprint "MTS-102-C3-NO-6.9mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 6.2 -7.6 0)
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" "MTS-102-C3-NO-6.9mm"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e194869c-bccb-4147-8cff-a3ee9152393c")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -234,6 +224,22 @@
 			(xy -13.85 0) (xy -20.8 0)
 		)
 		(height 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
 		(gr_text "6.9500 mm"
 			(at -17.325 -1.15 0)
 			(layer "User.1")
@@ -245,6 +251,15 @@
 				)
 			)
 		)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "70bd099e-41c8-403c-b9be-9e56d48d0047")
+		(pts
+			(xy 6.2 0) (xy -6.75 0)
+		)
+		(height 0)
 		(format
 			(prefix "")
 			(suffix "")
@@ -256,17 +271,11 @@
 			(thickness 0.1)
 			(arrow_length 1.27)
 			(text_position_mode 0)
+			(arrow_direction outward)
 			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "User.1")
-		(uuid "70bd099e-41c8-403c-b9be-9e56d48d0047")
-		(pts
-			(xy 6.2 0) (xy -6.75 0)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
 		)
-		(height 0)
 		(gr_text "12.9500 mm"
 			(at -0.275 -1.15 0)
 			(layer "User.1")
@@ -278,6 +287,15 @@
 				)
 			)
 		)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "9a568cfc-e9b6-4351-b619-390555452f5d")
+		(pts
+			(xy -6.75 -8) (xy -13.85 -8)
+		)
+		(height 0)
 		(format
 			(prefix "")
 			(suffix "")
@@ -289,17 +307,11 @@
 			(thickness 0.1)
 			(arrow_length 1.27)
 			(text_position_mode 0)
+			(arrow_direction outward)
 			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "User.1")
-		(uuid "9a568cfc-e9b6-4351-b619-390555452f5d")
-		(pts
-			(xy -6.75 -8) (xy -13.85 -8)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
 		)
-		(height 0)
 		(gr_text "7.1000 mm"
 			(at -10.3 -9.15 0)
 			(layer "User.1")
@@ -311,6 +323,15 @@
 				)
 			)
 		)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "c9424152-c782-40ca-85dc-aa8d835042bc")
+		(pts
+			(xy -9.3 -3) (xy -9.3 3)
+		)
+		(height 0)
 		(format
 			(prefix "")
 			(suffix "")
@@ -322,17 +343,11 @@
 			(thickness 0.1)
 			(arrow_length 1.27)
 			(text_position_mode 0)
+			(arrow_direction outward)
 			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "User.1")
-		(uuid "c9424152-c782-40ca-85dc-aa8d835042bc")
-		(pts
-			(xy -9.3 -3) (xy -9.3 3)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
 		)
-		(height 0)
 		(gr_text "6.0000 mm"
 			(at -10.45 0 90)
 			(layer "User.1")
@@ -344,65 +359,53 @@
 				)
 			)
 		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
 	)
 	(pad "1" thru_hole circle
 		(at 6.2 -4.7)
-		(size 2.8 2.8)
-		(drill 1.8)
-		(layers "*.Cu" "*.Paste" "*.Mask")
+		(size 2.7 2.7)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
 		(uuid "91ce6988-051d-48b3-8ff7-efc1ea7e76a8")
 	)
 	(pad "2" thru_hole circle
 		(at 6.2 0)
-		(size 2.8 2.8)
-		(drill 1.8)
-		(layers "*.Cu" "*.Paste" "*.Mask")
+		(size 2.7 2.7)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
 		(uuid "be463d2f-71f7-4eef-97d0-e6b7ba79bf13")
 	)
 	(pad "3" thru_hole circle
 		(at 6.2 4.7)
-		(size 2.8 2.8)
-		(drill 1.8)
-		(layers "*.Cu" "*.Paste" "*.Mask")
+		(size 2.7 2.7)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
 		(uuid "26a94e45-a9cf-4041-a179-e8a5fee3334c")
 	)
 	(pad "4" thru_hole circle
 		(at -6.5 -2.5)
-		(size 2.2 2.2)
-		(drill 1.5)
-		(layers "*.Cu" "*.Paste" "*.Mask")
+		(size 2.1 2.1)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
 		(uuid "2820a349-9f98-4af0-891a-6f26970b772f")
 	)
 	(pad "4" thru_hole circle
 		(at -6.5 2.5)
-		(size 2.2 2.2)
-		(drill 1.5)
-		(layers "*.Cu" "*.Paste" "*.Mask")
+		(size 2.1 2.1)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
 		(uuid "cb0cdb94-bdb6-4167-951e-51011ec11e53")
 	)
+	(embedded_fonts no)
 	(model "${EMOE_3DMODEL_DIR}/Switch_Encoders/MTS-1xx-C3-blue.step"
 		(offset
 			(xyz -6.8 0 0)

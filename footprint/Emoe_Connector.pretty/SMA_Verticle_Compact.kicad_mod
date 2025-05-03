@@ -1,0 +1,253 @@
+(footprint "SMA_Verticle_Compact"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "dbffda65-dd49-4095-a812-6cd751e90315")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SMA_Verticle_Compact"
+		(at 0 -0.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "77142d4f-3008-4dd0-a479-c49e62fe08fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05302a2f-64a3-4590-9fa3-a50f8a1487b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb03c7e7-b319-4751-b406-6ae6641fe9a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.25 -4.25)
+		(end 4.25 -4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "f6171634-d8ff-43ee-85d2-80bdfe85d74f")
+	)
+	(fp_line
+		(start -4.25 4.25)
+		(end -4.25 -4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "eb14b1d3-f150-4daa-9910-95731f652639")
+	)
+	(fp_line
+		(start 4.25 -4.25)
+		(end 4.25 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "5ab6a31c-cea2-4520-ae28-9fffc1388b54")
+	)
+	(fp_line
+		(start 4.25 4.25)
+		(end -4.25 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "72df068d-cf36-4ced-9806-3c0d875482a5")
+	)
+	(fp_line
+		(start -4.25 -4.25)
+		(end 4.25 -4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e911fbdf-cc62-4bac-bae8-d2d700bc5923")
+	)
+	(fp_line
+		(start -4.25 4.25)
+		(end -4.25 -4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ba6e7cd8-9a07-4c45-bb0d-cd205746b59c")
+	)
+	(fp_line
+		(start 4.25 -4.25)
+		(end 4.25 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "daa640e0-c006-4a6c-ba96-de272cd15396")
+	)
+	(fp_line
+		(start 4.25 4.25)
+		(end -4.25 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a9f0a86e-baba-4a72-b917-bbc201d3370b")
+	)
+	(fp_line
+		(start -3.45 -3.45)
+		(end -3.45 3.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b7047238-a53c-4024-9f1b-377e36e85c2c")
+	)
+	(fp_line
+		(start -3.45 3.45)
+		(end 3.45 3.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3847e49c-aa1e-4b1d-a369-3c40070abad3")
+	)
+	(fp_line
+		(start 3.45 -3.45)
+		(end -3.45 -3.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "88d8ddaf-d155-4487-afb5-e022614049c5")
+	)
+	(fp_line
+		(start 3.45 3.45)
+		(end 3.45 -3.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "80c697f0-818d-4055-85a2-24c5e52803b7")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f18ab69f-ab1f-418e-a6d9-024357258b70")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d6f6ab9f-d285-4579-89d3-74a49d91a961")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "82bf4a40-01ef-4f28-b293-c57e5dbf1cb4")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 -2.54)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2c176005-d3c8-42cb-b0fa-fc6eb92ff860")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 2.54)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f148f8ed-ec9d-4f48-b65a-0f798f8a85ea")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 -2.54)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8c94656d-144d-4a7f-ba3a-f4d715fa1bda")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 2.54)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "adc0a328-6733-40ca-90e7-c6781df4c3c8")
+	)
+	(embedded_fonts no)
+	(model "${EMOE_3DMODEL_DIR}/Connectors/Amphernol_SMA_Verticle_901-144-3.stp"
+		(offset
+			(xyz 0 0 9.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+)

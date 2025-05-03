@@ -1,0 +1,234 @@
+(footprint "双孔灯座"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -15.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6377c301-1ba5-4ecb-89fb-07aafcf614e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "双孔灯座"
+		(at 0 -14 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c8f4ca6f-a78a-47cb-9c03-624608ced454")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa59acc0-c16d-450c-aeb1-f4eb2f59e6ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd607422-52d3-496b-a5d9-f7d41af87647")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 -6.1)
+		(end 2 -6.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6373f99b-603d-4612-b115-f7b36acaa321")
+	)
+	(fp_line
+		(start -2 2.1)
+		(end -2 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "683e7321-0ff8-4260-a10e-ccb9c79e6b26")
+	)
+	(fp_line
+		(start -2 2.5)
+		(end -1.6 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "843ae372-71f1-4343-a710-9e79261223fe")
+	)
+	(fp_line
+		(start 0 -5.7)
+		(end -0.3 -5.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8c317d28-2c23-4972-b6b8-781740d00688")
+	)
+	(fp_line
+		(start 0 -5.7)
+		(end 0 -4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e0d94e29-a9b5-4990-b8d8-f6439ed90ed4")
+	)
+	(fp_line
+		(start 0 -5.7)
+		(end 0.3 -5.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bdbace40-4c98-4018-b681-a08fddf41562")
+	)
+	(fp_line
+		(start 2 2.5)
+		(end 2 2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "04f4c4a7-8e6b-40c7-ab36-7e390d3a37f7")
+	)
+	(fp_rect
+		(start -2.2 -6.3)
+		(end 2.2 2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4ccea974-834a-4752-a8e4-6b21097b370c")
+	)
+	(fp_line
+		(start -2.15 -6.25)
+		(end -2.15 2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5124103a-f7cf-4d42-a6a1-9f936d75b491")
+	)
+	(fp_line
+		(start -2.15 2.75)
+		(end 2.15 2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "03a3d793-cbe9-482c-a652-c1bc8430dc65")
+	)
+	(fp_line
+		(start 2.15 -6.25)
+		(end -2.15 -6.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c6eba375-f527-4a35-b169-6f66081eb419")
+	)
+	(fp_line
+		(start 2.15 2.75)
+		(end 2.15 -6.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1d2cf231-9660-4b96-973d-96eb4b223555")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -12.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ea8ea1b5-dac6-4cb1-9eeb-ccc2f1e3650e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -1.25 1.25)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "da5e7a16-d5c7-438c-825c-7d7aecc7a43a")
+	)
+	(pad "2" thru_hole circle
+		(at -1.25 -1.25)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1d09e163-c532-4219-8762-267504436bd4")
+	)
+	(pad "3" thru_hole circle
+		(at 1.25 1.25)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "06c523d3-50d7-4974-be1a-eb881c750499")
+	)
+	(pad "4" thru_hole circle
+		(at 1.25 -1.25)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "26611a5e-6f7a-4183-8f1c-38181db51fac")
+	)
+	(embedded_fonts no)
+	(model "${EMOE_3DMODEL_DIR}/Displays/3mm双孔灯座_上翠绿下红.step"
+		(offset
+			(xyz 0 1.8 -1.65)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 180 180)
+		)
+	)
+)

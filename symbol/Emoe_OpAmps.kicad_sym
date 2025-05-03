@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "AD8675ARZ"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -79,17 +79,17 @@
 					(type background)
 				)
 			)
-			(pin bidirectional line
-				(at 1.27 5.08 270)
+			(pin input line
+				(at -6.35 2.54 0)
 				(length 2.54)
-				(name "N"
+				(name "+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -115,17 +115,35 @@
 					)
 				)
 			)
-			(pin input line
-				(at -6.35 2.54 0)
+			(pin bidirectional line
+				(at 1.27 5.08 270)
 				(length 2.54)
-				(name "+"
+				(name "N"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 1.27 -5.08 90)
+				(length 2.54)
+				(name "N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -169,44 +187,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 1.27 -5.08 90)
-				(length 2.54)
-				(name "N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(symbol "AD8675ARZ_2_1"
-			(pin power_in line
-				(at 0 -7.62 90)
-				(length 3.81)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 0 7.62 270)
 				(length 3.81)
@@ -225,7 +207,253 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 3.81)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "ADA4523-1"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 2.286 7.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADA4523-1"
+			(at 7.112 5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
+			(at -1.27 -7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4523-1.pdf"
+			(at -1.016 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "36 V, Low Noise, Zero Drift Op Amp"
+			(at -1.524 -10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Zero Drift Op Amp"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ADA4523-1_1_1"
+			(polyline
+				(pts
+					(xy -2.54 5.08) (xy -2.54 -5.08) (xy 7.62 0) (xy -2.54 5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -5.08 2.54 0)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -2.54 0)
+				(length 2.54)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 5.08 -3.81 90)
+				(length 2.54)
+				(hide yes)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ADA4523-1_2_1"
+			(pin power_in line
+				(at -3.81 7.62 270)
+				(length 3.81)
+				(name "V+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -7.62 90)
+				(length 3.81)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 7.62 270)
+				(length 2.54)
+				(name "~{SD}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "SCOM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "ADA4945"
 		(exclude_from_sim no)
@@ -305,6 +533,96 @@
 				)
 			)
 			(pin input line
+				(at -7.62 5.08 0)
+				(length 2.54)
+				(name "-IN"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "~{DISABLE}"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "VOCM"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -5.08 0)
+				(length 2.54)
+				(name "+IN"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 7.62 270)
+				(length 2.54)
+				(name "+FB"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
 				(at 0 -7.62 90)
 				(length 2.54)
 				(name "-FB"
@@ -358,145 +676,19 @@
 					)
 				)
 			)
-			(pin input line
-				(at -7.62 2.54 0)
-				(length 2.54)
-				(name "~{DISABLE}"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -7.62 -5.08 0)
-				(length 2.54)
-				(name "+IN"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -7.62 5.08 0)
-				(length 2.54)
-				(name "-IN"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 0 7.62 270)
-				(length 2.54)
-				(name "+FB"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -7.62 -2.54 0)
-				(length 2.54)
-				(name "VOCM"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(symbol "ADA4945_2_1"
 			(pin bidirectional line
-				(at -1.27 -11.43 90)
+				(at -3.81 11.43 270)
 				(length 2.54)
-				(name "-V_{CLAMP}"
+				(name "MODE"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 1.27 -11.43 90)
-				(length 2.54) hide
-				(name "-Vs"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 1.27 -11.43 90)
-				(length 2.54)
-				(name "-Vs"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -523,16 +715,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 1.27 -11.43 90)
-				(length 2.54) hide
-				(name "EP"
+				(at -1.27 11.43 270)
+				(length 2.54)
+				(name "+V_{CLAMP}"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "17"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -541,16 +733,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at -3.81 11.43 270)
+				(at -1.27 -11.43 90)
 				(length 2.54)
-				(name "MODE"
+				(name "-V_{CLAMP}"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -560,7 +752,8 @@
 			)
 			(pin bidirectional line
 				(at 1.27 11.43 270)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "+Vs"
 					(effects
 						(font
@@ -595,16 +788,54 @@
 				)
 			)
 			(pin bidirectional line
-				(at -1.27 11.43 270)
+				(at 1.27 -11.43 90)
 				(length 2.54)
-				(name "+V_{CLAMP}"
+				(hide yes)
+				(name "-Vs"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 1.27 -11.43 90)
+				(length 2.54)
+				(name "-Vs"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 1.27 -11.43 90)
+				(length 2.54)
+				(hide yes)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -613,6 +844,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "BUF634A"
 		(exclude_from_sim no)
@@ -736,7 +968,8 @@
 			)
 			(pin no_connect line
 				(at -8.89 2.54 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -771,16 +1004,35 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -7.62 180)
+				(at 10.16 7.62 180)
 				(length 2.54)
-				(name "V-"
+				(name "V+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 10.16 5.08 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -790,7 +1042,8 @@
 			)
 			(pin no_connect line
 				(at 10.16 2.54 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -825,34 +1078,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 7.62 180)
+				(at 10.16 -7.62 180)
 				(length 2.54)
-				(name "V+"
+				(name "V-"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 10.16 5.08 180)
-				(length 2.54) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -861,6 +1096,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LTC6240HV"
 		(exclude_from_sim no)
@@ -931,42 +1167,6 @@
 					(type background)
 				)
 			)
-			(pin output line
-				(at 8.89 0 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 1.27 -5.08 90)
-				(length 2.54)
-				(name "V-"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -6.35 2.54 0)
 				(length 2.54)
@@ -1021,7 +1221,206 @@
 					)
 				)
 			)
+			(pin bidirectional line
+				(at 1.27 -5.08 90)
+				(length 2.54)
+				(name "V-"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 8.89 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "OPA140AIDBVR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 1.778 5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA140AIDBVR"
+			(at 8.128 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 0 -2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/cn/lit/ds/symlink/opa140.pdf"
+			(at 0 -4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OPAx140 高精度、低噪声、轨至轨输出、11MHz JFET 运算放大器"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "JFET Operational Amplifier"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "OPA140AIDBVR_1_1"
+			(polyline
+				(pts
+					(xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "OPA1612DRG"
 		(exclude_from_sim no)
@@ -1100,17 +1499,17 @@
 					(type background)
 				)
 			)
-			(pin output line
-				(at 8.89 0 180)
+			(pin input line
+				(at -6.35 2.54 0)
 				(length 2.54)
-				(name "~"
+				(name "+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1136,17 +1535,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -6.35 2.54 0)
+			(pin output line
+				(at 8.89 0 180)
 				(length 2.54)
-				(name "+"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1225,24 +1624,6 @@
 		)
 		(symbol "OPA1612DRG_3_1"
 			(pin power_in line
-				(at 0 -7.62 90)
-				(length 3.81)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at 0 7.62 270)
 				(length 3.81)
 				(name "V+"
@@ -1253,6 +1634,24 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 3.81)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1279,6 +1678,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "OPA171"
 		(exclude_from_sim no)
@@ -1357,24 +1757,6 @@
 					(type background)
 				)
 			)
-			(pin output line
-				(at 8.89 0 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -6.35 2.54 0)
 				(length 2.54)
@@ -1411,19 +1793,17 @@
 					)
 				)
 			)
-		)
-		(symbol "OPA171_2_1"
-			(pin power_in line
-				(at 0 -7.62 90)
-				(length 3.81)
-				(name "V-"
+			(pin output line
+				(at 8.89 0 180)
+				(length 2.54)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1431,6 +1811,8 @@
 					)
 				)
 			)
+		)
+		(symbol "OPA171_2_1"
 			(pin power_in line
 				(at 0 7.62 270)
 				(length 3.81)
@@ -1449,7 +1831,26 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 3.81)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "OPA189"
 		(exclude_from_sim no)
@@ -1463,7 +1864,7 @@
 				)
 			)
 		)
-		(property "Value" "\nOPA189"
+		(property "Value" "OPA189"
 			(at 6.35 3.81 0)
 			(effects
 				(font
@@ -1528,17 +1929,17 @@
 					(type background)
 				)
 			)
-			(pin no_connect line
-				(at 1.27 5.08 270)
+			(pin input line
+				(at -6.35 2.54 0)
 				(length 2.54)
-				(name ""
+				(name "+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1564,17 +1965,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -6.35 2.54 0)
+			(pin no_connect line
+				(at 1.27 5.08 270)
 				(length 2.54)
-				(name "+"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1600,24 +2001,6 @@
 					)
 				)
 			)
-			(pin output line
-				(at 8.89 0 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin no_connect line
 				(at 3.81 -3.81 90)
 				(length 2.54)
@@ -1636,19 +2019,17 @@
 					)
 				)
 			)
-		)
-		(symbol "OPA189_2_1"
-			(pin power_in line
-				(at 0 -7.62 90)
-				(length 3.81)
-				(name "V-"
+			(pin output line
+				(at 8.89 0 180)
+				(length 2.54)
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1656,6 +2037,8 @@
 					)
 				)
 			)
+		)
+		(symbol "OPA189_2_1"
 			(pin power_in line
 				(at 0 7.62 270)
 				(length 3.81)
@@ -1674,7 +2057,26 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 3.81)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "OPA211"
 		(exclude_from_sim no)
@@ -1753,17 +2155,17 @@
 					(type background)
 				)
 			)
-			(pin no_connect line
-				(at 1.27 5.08 270)
+			(pin input line
+				(at -6.35 2.54 0)
 				(length 2.54)
-				(name ""
+				(name "+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1789,17 +2191,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -6.35 2.54 0)
+			(pin no_connect line
+				(at 1.27 5.08 270)
 				(length 2.54)
-				(name "+"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1825,24 +2227,6 @@
 					)
 				)
 			)
-			(pin output line
-				(at 8.89 0 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin no_connect line
 				(at 3.81 -3.81 90)
 				(length 2.54)
@@ -1861,19 +2245,17 @@
 					)
 				)
 			)
-		)
-		(symbol "OPA211_2_1"
-			(pin power_in line
-				(at 0 -7.62 90)
-				(length 3.81)
-				(name "V-"
+			(pin output line
+				(at 8.89 0 180)
+				(length 2.54)
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1881,6 +2263,8 @@
 					)
 				)
 			)
+		)
+		(symbol "OPA211_2_1"
 			(pin power_in line
 				(at 0 7.62 270)
 				(length 3.81)
@@ -1899,7 +2283,26 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 3.81)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "OPA2171"
 		(exclude_from_sim no)
@@ -1978,17 +2381,17 @@
 					(type background)
 				)
 			)
-			(pin output line
-				(at 7.62 0 180)
+			(pin input line
+				(at -7.62 2.54 0)
 				(length 2.54)
-				(name "~"
+				(name "+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2014,17 +2417,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -7.62 2.54 0)
+			(pin output line
+				(at 7.62 0 180)
 				(length 2.54)
-				(name "+"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2103,24 +2506,6 @@
 		)
 		(symbol "OPA2171_3_1"
 			(pin power_in line
-				(at 0 -7.62 90)
-				(length 3.81)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at 0 7.62 270)
 				(length 3.81)
 				(name "V+"
@@ -2138,7 +2523,26 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 3.81)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "OPA348"
 		(exclude_from_sim no)
@@ -2217,24 +2621,6 @@
 					(type background)
 				)
 			)
-			(pin output line
-				(at 8.89 0 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -6.35 2.54 0)
 				(length 2.54)
@@ -2271,19 +2657,17 @@
 					)
 				)
 			)
-		)
-		(symbol "OPA348_2_1"
-			(pin power_in line
-				(at 0 -7.62 90)
-				(length 3.81)
-				(name "V-"
+			(pin output line
+				(at 8.89 0 180)
+				(length 2.54)
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2291,6 +2675,8 @@
 					)
 				)
 			)
+		)
+		(symbol "OPA348_2_1"
 			(pin power_in line
 				(at 0 7.62 270)
 				(length 3.81)
@@ -2309,7 +2695,26 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 3.81)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "THP210"
 		(exclude_from_sim no)
@@ -2389,16 +2794,16 @@
 				)
 			)
 			(pin input line
-				(at -7.62 -2.54 0)
+				(at -7.62 2.54 0)
 				(length 2.54)
-				(name "-"
+				(name "+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2424,17 +2829,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 7.62 -2.54 180)
-				(length 5.08)
-				(name "+"
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "-"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2460,9 +2865,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -7.62 2.54 0)
-				(length 2.54)
+			(pin output line
+				(at 7.62 -2.54 180)
+				(length 5.08)
 				(name "+"
 					(effects
 						(font
@@ -2470,7 +2875,7 @@
 						)
 					)
 				)
-				(number "8"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2535,6 +2940,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "OP37"
 		(extends "OPA211")
