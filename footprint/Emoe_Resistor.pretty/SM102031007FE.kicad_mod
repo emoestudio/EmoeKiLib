@@ -1,0 +1,207 @@
+(footprint "SM102031007FE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SM102031007FE-7")
+	(tags "Resistor")
+	(property "Reference" "R**"
+		(at 5.08 -1 0)
+		(layer "F.SilkS")
+		(uuid "12bcb9bc-f36d-4813-b177-80042626feeb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SM102031007FE"
+		(at 5.08 0.919 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5738cff2-4080-4dac-b0b0-2ac3864b447c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25e9b053-4226-4d5b-b5af-99daa0e3c9a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe6f71e7-d943-4198-b716-a0654109aa9f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.285 0)
+		(end -2.285 2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "49ec7e67-4553-4a98-8ffc-199920e12567")
+	)
+	(fp_line
+		(start -2.285 2.54)
+		(end 12.445 2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "45f4e3f2-5874-445b-8b88-56822d4ff90f")
+	)
+	(fp_line
+		(start 12.445 2.54)
+		(end 12.445 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f94b7060-7b2b-40ad-b531-4e3a083a1c22")
+	)
+	(fp_line
+		(start -3.285 -1.702)
+		(end 13.445 -1.702)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "939f0c2b-7f52-4107-98d3-78ba030c50f3")
+	)
+	(fp_line
+		(start -3.285 3.54)
+		(end -3.285 -1.702)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c2fea27e-1e24-437c-9318-323785a338de")
+	)
+	(fp_line
+		(start 13.445 -1.702)
+		(end 13.445 3.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0ac4535e-e888-43f5-b8b2-02adb3c42661")
+	)
+	(fp_line
+		(start 13.445 3.54)
+		(end -3.285 3.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0583a651-1ace-4d41-8083-fd4518edf8a1")
+	)
+	(fp_line
+		(start -2.285 0)
+		(end 12.445 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4d51dd9a-7969-4c3f-8aa5-d62a044fade4")
+	)
+	(fp_line
+		(start -2.285 2.54)
+		(end -2.285 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6b8941d0-6020-482d-a78b-40e2655c4391")
+	)
+	(fp_line
+		(start 12.445 0)
+		(end 12.445 2.54)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4d32e300-2349-4502-adb4-6387de295e62")
+	)
+	(fp_line
+		(start 12.445 2.54)
+		(end -2.285 2.54)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "806b45fa-ce7b-4c8f-b00e-5ad87a3e0560")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.08 0.919 0)
+		(layer "F.Fab")
+		(uuid "1d269165-ca2a-4108-9521-a22a4aaed1c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.404 1.404)
+		(drill 1.064)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fef4f0ef-bfbe-4444-8c30-0dc0373b0a97")
+	)
+	(pad "2" thru_hole circle
+		(at 10.16 0)
+		(size 1.404 1.404)
+		(drill 1.064)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dd5ac343-d29e-4e48-9436-8828594f2951")
+	)
+	(embedded_fonts no)
+	(model "D:/Softwares/Develop/KiCAD_Lib/SnapEDA/LIB_SM102031007FE/SM102031007FE/3D/SM102031007FE.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
