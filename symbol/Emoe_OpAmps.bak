@@ -7,32 +7,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 1.778 7.874 0)
+			(at 1.016 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "AD8605ARTZ"
+			(at 4.064 5.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 0 -7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,8 +31,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ad8605_8606_8608.pdf"
+			(at 0 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Precision, Low Noise, CMOS, Rail-to-Rail,Input/Output Operational Amplifiers"
+			(at 0 -9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55,6 +55,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "ki_keywords" "Precision, Low Noise, CMOS, Rail-to-Rail,Input/Output Operational Amplifiers"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "AD8605ARTZ_1_1"
