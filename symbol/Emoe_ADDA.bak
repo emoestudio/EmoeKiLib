@@ -2104,14 +2104,14 @@
 			(pin bidirectional line
 				(at 10.16 -11.43 180)
 				(length 2.54)
-				(name "V_{REF}B"
+				(name "R_{FB}B"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2122,14 +2122,14 @@
 			(pin bidirectional line
 				(at 10.16 -16.51 180)
 				(length 2.54)
-				(name "R_{FB}B"
+				(name "V_{REF}B"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
