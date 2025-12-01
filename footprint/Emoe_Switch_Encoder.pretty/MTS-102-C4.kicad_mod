@@ -1,0 +1,152 @@
+(footprint "MTS-102-C4"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -14 -5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1d6fa0b2-a5aa-468e-b5e9-e35b3f42d7eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MTS-102-C4"
+		(at 0 -3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a07c7696-9286-4776-9f0c-4535fc6236cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a0726bf-f263-4219-b23a-c78305857de6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd216b8f-7eff-495e-9825-d9423c29cda8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -16.5 -4)
+		(end -7 -4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "27eeb3c6-667e-4ac6-9315-9d81e86ea56e")
+	)
+	(fp_line
+		(start -16.5 4)
+		(end -7 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1eb670d7-2f60-4961-b546-320691be4d77")
+	)
+	(fp_rect
+		(start -18.35 -4)
+		(end -5.35 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ed127cee-60b0-45ea-8278-633c04da7a0d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8bd5f866-3571-4b72-86ac-41ca51864306")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 0)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4878639f-befa-45ff-9387-2c976b001721")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6e14f513-6c2c-4a83-9fcb-b39101ae6eac")
+	)
+	(pad "3" thru_hole circle
+		(at 3.81 0)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b8939254-6b88-47b2-8953-73d795ef6009")
+	)
+	(pad "MP" thru_hole circle
+		(at -16.51 -2.5)
+		(size 2.4 2.4)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4bca880d-a7b9-4e35-8c4f-7f6e7e943e96")
+	)
+	(pad "MP" thru_hole circle
+		(at -16.51 2.5)
+		(size 2.4 2.4)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bb73d44e-d252-4f98-b213-48c40125c448")
+	)
+	(embedded_fonts no)
+	(model "${EMOE_3DMODEL_DIR}/Switch_Encoders/MTS-1xx-A4-blue.step"
+		(offset
+			(xyz -16.8 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)
