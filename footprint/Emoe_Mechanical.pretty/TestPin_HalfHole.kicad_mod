@@ -1,0 +1,122 @@
+(footprint "TestPin_HalfHole"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.4 1.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0b409e6a-efea-4068-baf8-2685308e06b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TestPin_HalfHole"
+		(at 0 -2.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3e710ac9-4ecd-4e44-b867-b0524fcbca9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -3.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fce2931e-618d-4316-b7a4-ecf88b5f26ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -3.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7af42902-df2e-4486-a783-745c23ec0d5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 2.3 -0.3)
+		(end 3.3 -0.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "26f4ae9d-681b-4768-9433-4a7e9b56e708")
+	)
+	(fp_line
+		(start 2.3 0.3)
+		(end 3.3 0.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c09a2b3b-8996-48cf-a2d7-1ec5e6df54c2")
+	)
+	(fp_arc
+		(start 2.3 0.3)
+		(mid 2 0)
+		(end 2.3 -0.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "890ce055-b3d1-4090-8d69-fcd75193d717")
+	)
+	(fp_arc
+		(start 3.3 -0.3)
+		(mid 3.6 0)
+		(end 3.3 0.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d7d43508-d373-441d-8002-24ec2734b18f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "432adae8-4f6e-458e-9ce5-23cd449bfb31")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.25 1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+		(thermal_bridge_angle 45)
+		(uuid "8667fc82-97d2-4754-a802-ef03a9d013ea")
+	)
+	(embedded_fonts no)
+)

@@ -2,28 +2,28 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "PP_ISO_PWR_10.5mm_39.6mm"
+	(symbol "YHDC_PE4820-I"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 10.922 0)
+			(at 0 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "PP_ISO_PWR_10.5mm_39.6mm"
-			(at 0 8.89 0)
+		(property "Value" "PE4820-I"
+			(at 0 9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Emoe_Modules:PP_ISO_PWR_10.5mm_39.6mm"
-			(at 0 -8.89 0)
+		(property "Footprint" "Emoe_Transformer:YHDC_PE4820-I-12VA"
+			(at 0 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,7 +40,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power Transformer"
+			(at 0.254 -9.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Power Transformer"
 			(at 0 0 0)
 			(effects
 				(font
@@ -49,19 +58,10 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Push Pull Isolated Dual-Power Module for analog supply"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "PP_ISO_PWR_10.5mm_39.6mm_1_1"
+		(symbol "YHDC_PE4820-I_1_1"
 			(rectangle
-				(start -7.62 7.62)
-				(end 7.62 -7.62)
+				(start -6.35 8.255)
+				(end 6.35 -8.255)
 				(stroke
 					(width 0)
 					(type solid)
@@ -70,82 +70,10 @@
 					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy 0 6.985) (xy 0 5.715)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 4.445) (xy 0 3.175)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 1.905) (xy 0 0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -0.635) (xy 0 -1.905)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -3.175) (xy 0 -4.445)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -5.715) (xy 0 -6.985)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin bidirectional line
-				(at -10.16 2.54 0)
+				(at -8.89 6.35 0)
 				(length 2.54)
-				(name "+5VIN"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -160,11 +88,11 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -10.16 2.54 0)
+			(pin no_connect line
+				(at -8.89 3.81 0)
 				(length 2.54)
 				(hide yes)
-				(name "+5VIN"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -179,10 +107,11 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -10.16 -2.54 0)
+			(pin no_connect line
+				(at -8.89 1.27 0)
 				(length 2.54)
-				(name "GND1"
+				(hide yes)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -197,11 +126,11 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -10.16 -2.54 0)
+			(pin no_connect line
+				(at -8.89 -1.27 0)
 				(length 2.54)
 				(hide yes)
-				(name "GND1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -216,47 +145,47 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 10.16 5.08 180)
+			(pin no_connect line
+				(at -8.89 -3.81 0)
 				(length 2.54)
-				(name "+5Vout"
+				(hide yes)
+				(name ""
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "5"
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 0 180)
+				(at -8.89 -6.35 0)
 				(length 2.54)
-				(name "GNDISO"
+				(name ""
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "6"
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 0 180)
+				(at 8.89 6.35 180)
 				(length 2.54)
-				(hide yes)
-				(name "GNDISO"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -271,20 +200,94 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 10.16 -5.08 180)
+			(pin no_connect line
+				(at 8.89 3.81 180)
 				(length 2.54)
-				(name "-5Vout"
+				(hide yes)
+				(name ""
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "9"
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 8.89 1.27 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 8.89 -1.27 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 8.89 -3.81 180)
+				(length 2.54)
+				(hide yes)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 8.89 -6.35 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)

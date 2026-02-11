@@ -1260,6 +1260,221 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "AD5541"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 1.778 12.446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AD5541"
+			(at 4.826 10.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 0.254 -12.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ad5541_5542.pdf"
+			(at 0.254 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.7 V to 5.5 V, Serial-Input, Voltage-Output, 16-Bit DACs"
+			(at 0 -14.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "DAC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AD5541_1_1"
+			(rectangle
+				(start -7.62 8.89)
+				(end 7.62 -8.89)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin output line
+				(at -10.16 6.35 0)
+				(length 2.54)
+				(name "Vout"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -10.16 -6.35 0)
+				(length 2.54)
+				(name "AGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 11.43 270)
+				(length 2.54)
+				(name "REF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 6.35 180)
+				(length 2.54)
+				(name "V_{DD}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 1.27 180)
+				(length 2.54)
+				(name "DIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -1.27 180)
+				(length 2.54)
+				(name "SCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -3.81 180)
+				(length 2.54)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -6.35 180)
+				(length 2.54)
+				(name "DGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "AD5541A"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5777,6 +5992,441 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "DAC8563"
+		(pin_names
+			(offset 0.002)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 15.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DAC8563"
+			(at 0 13.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm"
+			(at 0 -16.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/dac8563.pdf"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "16-bit DAC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "DAC8563_0_1"
+			(rectangle
+				(start -6.985 6.985)
+				(end -1.27 3.175)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -2.54 -1.905) (xy -5.715 0) (xy -2.54 1.905) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -5.08) (xy -2.54 -6.985) (xy -5.715 -5.08) (xy -2.54 -3.175) (xy -2.54 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 0) (xy 0.635 1.905) (xy 5.08 1.905) (xy 5.08 -1.905) (xy 0.635 -1.905) (xy -0.635 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -5.08) (xy -2.54 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -5.08) (xy 0.635 -3.175) (xy 5.08 -3.175) (xy 5.08 -6.985) (xy 0.635 -6.985) (xy -0.635 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.905) (xy 2.54 5.08) (xy -1.27 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -3.175) (xy 2.54 -1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "DAC8563_1_1"
+			(rectangle
+				(start -11.43 12.7)
+				(end 11.43 -12.7)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 6.985) (xy -3.81 10.16) (xy 6.985 10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 3.175) (xy -3.81 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -3.81) (xy -3.81 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -6.35) (xy -3.81 -10.16) (xy 6.985 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "REF"
+				(at -4.064 5.08 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(text "DAC"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(text "DAC"
+				(at 2.54 -5.08 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -13.97 5.08 0)
+				(length 2.54)
+				(name "V_{REF}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -13.97 0 0)
+				(length 2.54)
+				(name "V_{OUT}A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -13.97 -5.08 0)
+				(length 2.54)
+				(name "V_{OUT}B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 13.97 10.16 180)
+				(length 2.54)
+				(name "AV_{DD}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 13.97 5.08 180)
+				(length 2.54)
+				(name "SCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 13.97 2.54 180)
+				(length 2.54)
+				(name "MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 13.97 0 180)
+				(length 2.54)
+				(name "~{SYNC}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 13.97 -2.54 180)
+				(length 2.54)
+				(name "~{CLR}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 13.97 -5.08 180)
+				(length 2.54)
+				(name "~{LDAC}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 13.97 -10.16 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "DAC8830"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8057,7 +8707,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 11.43 0)
+			(at -1.27 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8065,7 +8715,7 @@
 			)
 		)
 		(property "Value" "TPC6240"
-			(at 0 9.144 0)
+			(at -1.27 24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8073,7 +8723,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Texas_RHA0040B_VQFN-40-1EP_6x6mm_P0.5mm_EP4.15x4.15mm"
-			(at 0 -42.164 0)
+			(at -1.27 -26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8082,7 +8732,7 @@
 			)
 		)
 		(property "Datasheet" "http://file.3peakic.com.cn:8080/product/Datasheet_TPC6240.pdf"
-			(at 0.254 -39.624 0)
+			(at -1.016 -24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8090,8 +8740,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at -8.89 7.62 0)
+		(property "Description" "8-/16-Channel, 8-kSPS, 24-Bit, Highly Integrated Sigma-Delta ADC"
+			(at 0 -29.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8118,8 +8768,8 @@
 		)
 		(symbol "TPC6240_1_1"
 			(rectangle
-				(start -8.89 7.62)
-				(end 10.16 -38.1)
+				(start -10.16 22.86)
+				(end 10.16 -22.86)
 				(stroke
 					(width 0)
 					(type default)
@@ -8129,7 +8779,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 5.08 0)
+				(at -12.7 20.32 0)
 				(length 2.54)
 				(name "AIN0/REF2-"
 					(effects
@@ -8147,7 +8797,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 2.54 0)
+				(at -12.7 17.78 0)
 				(length 2.54)
 				(name "AIN1/REF2+"
 					(effects
@@ -8165,7 +8815,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 0 0)
+				(at -12.7 15.24 0)
 				(length 2.54)
 				(name "AIN2"
 					(effects
@@ -8183,7 +8833,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -2.54 0)
+				(at -12.7 12.7 0)
 				(length 2.54)
 				(name "AIN3"
 					(effects
@@ -8201,7 +8851,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -5.08 0)
+				(at -12.7 10.16 0)
 				(length 2.54)
 				(name "AIN4"
 					(effects
@@ -8219,7 +8869,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -7.62 0)
+				(at -12.7 7.62 0)
 				(length 2.54)
 				(name "AIN5"
 					(effects
@@ -8237,7 +8887,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -10.16 0)
+				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "AIN6"
 					(effects
@@ -8255,7 +8905,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -12.7 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "AIN7"
 					(effects
@@ -8273,7 +8923,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -15.24 0)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "AIN8"
 					(effects
@@ -8291,7 +8941,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -17.78 0)
+				(at -12.7 -2.54 0)
 				(length 2.54)
 				(name "AIN9"
 					(effects
@@ -8309,7 +8959,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -20.32 0)
+				(at -12.7 -5.08 0)
 				(length 2.54)
 				(name "AIN10"
 					(effects
@@ -8327,7 +8977,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -22.86 0)
+				(at -12.7 -7.62 0)
 				(length 2.54)
 				(name "AIN11"
 					(effects
@@ -8345,7 +8995,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -25.4 0)
+				(at -12.7 -10.16 0)
 				(length 2.54)
 				(name "AIN12"
 					(effects
@@ -8363,7 +9013,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -27.94 0)
+				(at -12.7 -12.7 0)
 				(length 2.54)
 				(name "AIN13"
 					(effects
@@ -8381,7 +9031,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -30.48 0)
+				(at -12.7 -15.24 0)
 				(length 2.54)
 				(name "AIN14"
 					(effects
@@ -8399,7 +9049,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -33.02 0)
+				(at -12.7 -17.78 0)
 				(length 2.54)
 				(name "AIN15"
 					(effects
@@ -8417,7 +9067,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -35.56 0)
+				(at -12.7 -20.32 0)
 				(length 2.54)
 				(name "AIN16"
 					(effects
@@ -8435,7 +9085,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 5.08 180)
+				(at 12.7 20.32 180)
 				(length 2.54)
 				(name "REF+"
 					(effects
@@ -8453,7 +9103,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 0 180)
+				(at 12.7 15.24 180)
 				(length 2.54)
 				(name "REF-"
 					(effects
@@ -8471,7 +9121,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -5.08 180)
+				(at 12.7 10.16 180)
 				(length 2.54)
 				(name "REFOUT"
 					(effects
@@ -8489,7 +9139,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -15.24 180)
+				(at 12.7 0 180)
 				(length 2.54)
 				(name "AVDD2"
 					(effects
@@ -8507,7 +9157,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -20.32 180)
+				(at 12.7 -5.08 180)
 				(length 2.54)
 				(name "AVDD1"
 					(effects
@@ -8525,7 +9175,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 12.7 -22.86 180)
+				(at 12.7 -7.62 180)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -8544,7 +9194,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 12.7 -25.4 180)
+				(at 12.7 -10.16 180)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -8563,7 +9213,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 12.7 -27.94 180)
+				(at 12.7 -12.7 180)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -8582,7 +9232,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -30.48 180)
+				(at 12.7 -15.24 180)
 				(length 2.54)
 				(name "PDSW"
 					(effects
@@ -8600,7 +9250,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -33.02 180)
+				(at 12.7 -17.78 180)
 				(length 2.54)
 				(name "EP"
 					(effects
@@ -8618,7 +9268,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -35.56 180)
+				(at 12.7 -20.32 180)
 				(length 2.54)
 				(name "AVSS"
 					(effects

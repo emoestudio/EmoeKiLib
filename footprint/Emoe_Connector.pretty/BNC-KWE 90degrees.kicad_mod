@@ -198,15 +198,15 @@
 		(uuid "baffacdb-a92a-4cf6-abe5-4c17ab3c27bb")
 	)
 	(embedded_fonts no)
-	(model "${EMOE_3DMODEL_DIR}/Connectors/BNC-KWE-90 degrees.STEP"
+	(model "${EMOE_3DMODEL_DIR}/Connectors/BNC-KWE-90degrees-15mm.STEP"
 		(offset
-			(xyz 0 6 19.8)
+			(xyz 0 0 0.05)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 180 -0 -0)
+			(xyz -90 -0 -90)
 		)
 	)
 )

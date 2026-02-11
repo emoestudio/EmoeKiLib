@@ -1,0 +1,240 @@
+(footprint "VPT87DDF01B"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Push-Pull/Full-Bridge Transformer, SMD 8Pin")
+	(property "Reference" "REF**"
+		(at 0 -5.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "14fd6049-f083-4aa2-b991-d31271462b87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VPT87DDF01B"
+		(at 0 -0.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cb7c6af8-bba8-4b12-9866-01346d470b51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.1 -1.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f621a4b-4012-45c0-90f7-588109c39af4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.1 -1.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2cd2841-bc53-48a0-a474-e93c3c48aedf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -8.1 -3.9)
+		(end -8.1 -2.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "60d9edd4-98b6-4811-8fc3-3df2d08b7811")
+	)
+	(fp_line
+		(start -8.1 -2.9)
+		(end -7.3 -3.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0dea5367-627b-49c7-9dde-25f641defe9a")
+	)
+	(fp_line
+		(start -7.3 -3.4)
+		(end -8.1 -3.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0579c414-27f6-42d4-9d80-f42de347a7d8")
+	)
+	(fp_line
+		(start -7 -4.1)
+		(end -7 -2.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "974a13a3-c94c-4248-bd0a-13e553803fe6")
+	)
+	(fp_line
+		(start -7 -4.1)
+		(end -3.8 -4.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ecf942e4-fa11-44a2-949d-882bc82d98fc")
+	)
+	(fp_line
+		(start -7 4.1)
+		(end -3.8 4.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6bc86a2f-4fec-494f-84de-cb2cd941b1ab")
+	)
+	(fp_line
+		(start 3.8 -4.1)
+		(end 7 -4.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1d5d4b1e-1e91-462c-877e-eef92516f443")
+	)
+	(fp_line
+		(start 3.8 4.1)
+		(end 7 4.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "de461036-2ded-4f1f-b9f3-ffcb4983210e")
+	)
+	(fp_rect
+		(start -6.9 -4)
+		(end 6.9 4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5cc33f99-c180-474a-927d-ced3e75166eb")
+	)
+	(fp_rect
+		(start -6.9 -4)
+		(end 6.9 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "68b78987-cb4b-4770-a098-66038568b9da")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "49a13adc-7312-4eef-aead-87e4e5989ce5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -5.375 -3.3)
+		(size 2.75 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "1e1ca202-79f9-45c2-9074-2e0a1963568d")
+	)
+	(pad "2" smd rect
+		(at -5.375 -1.5)
+		(size 2.75 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "63d3bfdc-c69f-4c54-b8dd-8c18366a5668")
+	)
+	(pad "3" smd rect
+		(at -5.375 1.5)
+		(size 2.75 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "9d18deb7-42f7-4235-93a4-4e9dac0821a3")
+	)
+	(pad "4" smd rect
+		(at -5.375 3.3)
+		(size 2.75 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "77167593-1f4c-4470-9d47-627b3ce46154")
+	)
+	(pad "5" smd rect
+		(at 5.375 3.3)
+		(size 2.75 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "7c6f20f1-9fea-406b-9aab-48eec4761d70")
+	)
+	(pad "6" smd rect
+		(at 5.375 1.5)
+		(size 2.75 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "fe411d0f-d15b-43e5-a486-8f18aa1746c2")
+	)
+	(pad "7" smd rect
+		(at 5.375 -1.5)
+		(size 2.75 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "72254098-3a13-4130-a186-dfa04459c66d")
+	)
+	(pad "8" smd rect
+		(at 5.375 -3.3)
+		(size 2.75 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "c0c94819-3a77-4ac2-a63f-8b660b1e48c0")
+	)
+	(embedded_fonts no)
+	(model "${EMOE_3DMODEL_DIR}/Transformers/VPT87DDF01B.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
