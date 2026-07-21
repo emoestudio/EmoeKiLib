@@ -476,7 +476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TLV704 24-V, 150-mA, 3.2-μA Quiescent Current, Low-Dropout Linear Regulator"
+		(property "Description" "TLV704 24-V, 150-mA, 3.2-μA Quiescent Current, Low-Dropout Linear Regulator,SOT-23-5"
 			(at 0.254 -7.62 0)
 			(effects
 				(font

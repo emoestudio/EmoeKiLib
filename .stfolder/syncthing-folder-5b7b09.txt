@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: jwmrh-nggfz
+created: 2026-02-28T13:25:05+08:00

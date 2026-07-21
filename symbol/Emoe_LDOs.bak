@@ -14,15 +14,15 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "GM1200ACPZ"
+			(at 0.508 7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.65x2.38mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -40,7 +40,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "超低噪声、超高 PSRR 线性稳压电源"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "RF LDO"
 			(at 0 0 0)
 			(effects
 				(font
@@ -467,7 +476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TLV704 24-V, 150-mA, 3.2-μA Quiescent Current, Low-Dropout Linear Regulator"
+		(property "Description" "TLV704 24-V, 150-mA, 3.2-μA Quiescent Current, Low-Dropout Linear Regulator,SOT-23-5"
 			(at 0.254 -7.62 0)
 			(effects
 				(font
